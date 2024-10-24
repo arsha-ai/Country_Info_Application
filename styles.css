@@ -1,0 +1,108 @@
+/* Background Image */
+#bg-image {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url('I:/5th sem/App Dev/Arsha exp-4/2223292.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Transparent input section */
+.input-section, .compare-inputs {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+/* Transparent fields with blending effect */
+input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Transparent box for country info and comparison */
+.transparent-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Bold and white-highlighted field titles */
+.transparent-box p strong {
+    color: white;
+    font-weight: bold;
+}
+
+/* For comparison section */
+.compare-section h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.compare-inputs {
+    display: flex;
+    gap: 20px;
+}
+
+#comparisonTable {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.comparison-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 45%;
+    font-size: 1.1rem;
+}
+
+.comparison-box p strong {
+    color: white;
+    font-weight: bold;
+}
